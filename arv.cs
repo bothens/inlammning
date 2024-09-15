@@ -11,12 +11,13 @@ public class Fotboll
 	{
 		Console.WriteLine("players kick the ball");
 	}
-    public void run()
+      public void run()
     {
         Console.WriteLine("players run after the ball");
     }
-	// subklass
-	public class Defender : Fotboll
+}
+// subklass
+public class Defender : Fotboll
 	{ 
 		public int height;
 		//metod
@@ -26,4 +27,4 @@ public class Fotboll
 		}
     }
 
-}
+
